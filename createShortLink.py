@@ -7,14 +7,19 @@ import pyperclip
 import time
 
 url = input('URL to redirect to: ')
-print(' ')
-customBackhalf = input('Backhalf (inputing "random" will create a 4 character random backhalf consisting of uppercase letters, lowercase letters, and digits.): ')
-print(' ')
 
-if customBackhalf == "random":
-    backhalf = ( ''.join(random.choice(string.ascii_lowercase + string.ascii_uppercase + string.digits) for i in range(4)) )
-else:
-    backhalf = customBackhalf
+isdir = True
+
+while isdir == True:
+    print(' ')
+    customBackhalf = input('Backhalf (inputing "random" will create a 4 character random backhalf consisting of uppercase letters, lowercase letters, and digits.): ')
+    print(' ')
+
+    if customBackhalf == "random":
+        backhalf = ( ''.join(random.choice(string.ascii_lowercase + string.ascii_uppercase + string.digits) for i in range(4)) )
+    else:
+        backhalf = customBackhalf
+    isdir = os.path.isdir(backhalf)
 
 os.mkdir(backhalf)
 file = open(f"{backhalf}/index.html","w+")
