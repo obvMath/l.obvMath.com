@@ -7,7 +7,7 @@ import pyperclip
 from datetime import datetime
 import time
 
-linkName = input('Link Name:')
+linkName = input('Link Name: ')
 
 # Checks if URL entered is valid (starts with http:// or https://)
 isUrlValid = False
