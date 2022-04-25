@@ -7,15 +7,17 @@ import pyperclip
 from datetime import datetime
 import time
 
+linkName = input('Link Name:')
+
 # Checks if URL entered is valid (starts with http:// or https://)
 isUrlValid = False
 while isUrlValid == False:
+    print(' ')
     url = input('URL to redirect to: ')
     if url.startswith('https://') or url.startswith('http://'):
         isUrlValid = True
     else:
         isUrlValid = False
-        print(' ')
 
 # Checks if short link already exists
 isdir = True
@@ -37,7 +39,7 @@ file.close() # Saves the file
 
 timestamp = datetime.now().strftime("%m/%d/%Y %H:%M")
 record = open("links.txt", "a")
-record.write(f"\nTimestamp: {timestamp} // Backhalf: {backhalf} // URL: {url}")
+record.write(f"\nLink Name: {linkName} // Timestamp: {timestamp} // Backhalf: {backhalf} // URL: {url}")
 
 print(f'A short link created at "https://x.obvMath.com/{backhalf}". The short link has been copied to the clipboard.') # Confirmation that short link was created
 pyperclip.copy(f"https://x.obvMath.com/{backhalf}") # Copies created short link to clipboard
