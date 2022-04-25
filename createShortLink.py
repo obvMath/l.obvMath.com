@@ -4,6 +4,7 @@ import random
 import string
 import os
 import pyperclip
+from datetime import datetime
 import time
 
 # Checks if URL entered is valid (starts with http:// or https://)
@@ -33,26 +34,17 @@ os.mkdir(backhalf) # Creates folder
 file = open(f"{backhalf}/index.html","w+") # Created HTML file in folder
 file.write(f'<meta http-equiv="refresh" content="0; URL={url}">') # Writes redirect code to HTML file
 file.close() # Saves the file
+
+timestamp = datetime.now().strftime("%m/%d/%Y %H:%M")
+record = open("links.txt", "a")
+record.write(f"\nTimestamp: {timestamp} // Backhalf: {backhalf} // URL: {url}")
+
 print(f'A short link created at "https://x.obvMath.com/{backhalf}". The short link has been copied to the clipboard.') # Confirmation that short link was created
 pyperclip.copy(f"https://x.obvMath.com/{backhalf}") # Copies created short link to clipboard
 
 os.startfile("..\GitHubDesktop.exe.lnk") # Opens GitHub Desktop to remind me to push origin to GitHub Pages so the website actually updates.
 print(' ')
 print('Closing in:')
-print('10')
-time.sleep(1)
-print('9')
-time.sleep(1)
-print('8')
-time.sleep(1)
-print('7')
-time.sleep(1)
-print('6')
-time.sleep(1)
-print('5')
-time.sleep(1)
-print('4')
-time.sleep(1)
 print('3')
 time.sleep(1)
 print('2')
