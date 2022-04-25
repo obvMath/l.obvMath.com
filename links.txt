@@ -20,3 +20,4 @@ Link Name: ssd // Timestamp: 04/25/2022 16:39 // Backhalf: Xk57 // URL: https://
 Link Name: youtube // Timestamp: 04/25/2022 16:40 // Backhalf: youtube // URL: https://www.youtube.com/channel/UCXzcr0NFFkVWz2wbNiEDaBA
 Link Name: monitor 1 // Timestamp: 04/25/2022 16:40 // Backhalf: Yp7j // URL: https://www.dell.com/en-us/shop/alienware-25-gaming-monitor-aw2521hf/apd/210-avlt/monitors-monitor-accessories
 Link Name: youtube // Timestamp: 04/25/2022 16:40 // Backhalf: yt // URL: https://www.youtube.com/channel/UCXzcr0NFFkVWz2wbNiEDaBA
+Link Name: list of short links // Timestamp: 04/25/2022 16:55 // Backhalf: links // URL: https://x.obvmath.com/links.txt
