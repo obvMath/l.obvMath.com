@@ -1,43 +1,22 @@
 Name: steelseries arctis prime  //  Timestamp: 04/25/2022 16:01  //  Backhalf: 7XQy  //  URL: https://steelseries.com/gaming-headsets/arctis-prime
-
 Name: github  //  Timestamp: 04/25/2022 16:03  //  Backhalf: github  //  URL: https://github.com/obvMath
-
 Name: hypixel forums  //  Timestamp: 04/25/2022 16:05  //  Backhalf: hypixelforums  //  URL: https://hypixel.net/members/4245837
-
 Name: motherboard  //  Timestamp: 04/25/2022 16:06  //  Backhalf: 64mX  //  URL: https://www.asrock.com/mb/AMD/X570%20Pro4/index.asp
-
 Name: amethyst pack  //  Timestamp: 04/25/2022 16:07  //  Backhalf: ALKk  //  URL: https://www.youtube.com/watch?v=6vyy09vQ7_M&t=299s
-
 Name: gpu  //  Timestamp: 04/25/2022 16:07  //  Backhalf: beZi  //  URL: https://www.evga.com/products/specs/gpu.aspx?pn=0d3aca30-c8b9-47a8-8aa8-0dda2e7e7ac7
-
 Name: keyboard  //  Timestamp: 04/25/2022 16:07  //  Backhalf: BJnb  //  URL: https://www.dell.com/en-us/shop/new-alienware-rgb-mechanical-gaming-keyboard-aw410k/apd/580-ajbd/pc-accessories
-
 Name: bridge overlay  //  Timestamp: 04/25/2022 16:08  //  Backhalf: bridgeoverlay  //  URL: https://www.youtube.com/watch?v=phTZ344afkg
-
 Name: mouse  //  Timestamp: 04/25/2022 16:09  //  Backhalf: gBD9  //  URL: https://www.pcgamingrace.com/products/glorious-model-o-wireless-matte-black
-
 Name: github  //  Timestamp: 04/25/2022 16:35  //  Backhalf: gh  //  URL: https://github.com/obvMath
-
 Name: stream deck  //  Timestamp: 04/25/2022 16:35  //  Backhalf: hXps  //  URL: https://www.elgato.com/en/stream-deck
-
 Name: hypixel forums  //  Timestamp: 04/25/2022 16:36  //  Backhalf: hypixel  //  URL: https://hypixel.net/members/4245837
-
 Name: ram  //  Timestamp: 04/25/2022 16:36  //  Backhalf: iZ8H  //  URL: https://www.crucial.com/memory/ddr4/bl2k16g32c16u4bl
-
 Name: pc case  //  Timestamp: 04/25/2022 16:37  //  Backhalf: N6Eg  //  URL: https://nzxt.com/product/h510
-
 Name: aio  //  Timestamp: 04/25/2022 16:37  //  Backhalf: qeoZ  //  URL: https://nzxt.com/product/kraken-x63-rgb
-
 Name: sky overlay  //  Timestamp: 04/25/2022 16:38  //  Backhalf: t8Jz  //  URL: https://www.youtube.com/watch?v=iQqSmZD2-4s
-
 Name: monitor 2  //  Timestamp: 04/25/2022 16:38  //  Backhalf: VgK6  //  URL: https://www.dell.com/en-us/work/shop/cty/dell-24-monitor-p2419h/spd/dell-p2419h-monitor
-
 Name: cpu  //  Timestamp: 04/25/2022 16:39  //  Backhalf: wv7o  //  URL: https://www.amd.com/en/products/cpu/amd-ryzen-7-5800x
-
 Name: ssd  //  Timestamp: 04/25/2022 16:39  //  Backhalf: Xk57  //  URL: https://www.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd#WDS100T3X0C
-
 Name: youtube  //  Timestamp: 04/25/2022 16:40  //  Backhalf: youtube  //  URL: https://www.youtube.com/channel/UCXzcr0NFFkVWz2wbNiEDaBA
-
 Name: monitor 1  //  Timestamp: 04/25/2022 16:40  //  Backhalf: Yp7j  //  URL: https://www.dell.com/en-us/shop/alienware-25-gaming-monitor-aw2521hf/apd/210-avlt/monitors-monitor-accessories
-
 Name: youtube  //  Timestamp: 04/25/2022 16:40  //  Backhalf: yt  //  URL: https://www.youtube.com/channel/UCXzcr0NFFkVWz2wbNiEDaBA
