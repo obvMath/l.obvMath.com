@@ -39,7 +39,7 @@ file.close() # Saves the file
 
 timestamp = datetime.now().strftime("%m/%d/%Y %H:%M")
 record = open("links/index.html", "a")
-record.write(f'\n<tr><td>{linkName}</td><td>{timestamp}</td><td>{backhalf}</td><td><a href="{url}" target="_blank">{url}</a></td></tr>')
+record.write(f'\n        <tr>\n            <td>{linkName}</td>\n            <td>{timestamp}</td>\n            <td>{backhalf}</td>\n            <td><a href="{url}" target="_blank">{url}</a></td>\n        </tr>')
 record.close
 
 print(f'A short link created at "https://x.obvMath.com/{backhalf}". The short link has been copied to the clipboard.') # Confirmation that short link was created
