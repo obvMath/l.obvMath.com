@@ -39,7 +39,7 @@ file.close() # Saves the file
 
 timestamp = datetime.now().strftime("%m/%d/%Y %H:%M")
 record = open("links.txt", "a")
-record.write(f"\nName: {linkName}  //  Timestamp: {timestamp}  //  Backhalf: {backhalf}  //  URL: {url}")
+record.write(f"\n\nName: {linkName}  //  Timestamp: {timestamp}  //  Backhalf: {backhalf}  //  URL: {url}")
 
 print(f'A short link created at "https://x.obvMath.com/{backhalf}". The short link has been copied to the clipboard.') # Confirmation that short link was created
 pyperclip.copy(f"https://x.obvMath.com/{backhalf}") # Copies created short link to clipboard
