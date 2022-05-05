@@ -20,8 +20,8 @@ while isUrlValid == False:
         isUrlValid = False
 
 # Checks if short link already exists
-isdir = True
-while isdir == True:
+isFile = True
+while isFile == True:
     print(' ')
     customBackhalf = input('Backhalf (inputing "random" will create a 4 character random backhalf consisting of uppercase letters, lowercase letters, and digits.): ')
     print(' ')
@@ -30,15 +30,14 @@ while isdir == True:
         backhalf = ( ''.join(random.choice(string.ascii_lowercase + string.ascii_uppercase + string.digits) for i in range(4)) )
     else:
         backhalf = customBackhalf
-    isdir = os.path.isdir(backhalf)
+    isFile = os.path.isfile(f'{backhalf}.html')
 
-os.mkdir(backhalf) # Creates folder
-file = open(f"{backhalf}/index.html","w+") # Created HTML file in folder
+file = open(f"{backhalf}.html","w+") # Created HTML file in folder
 file.write(f'<meta http-equiv="refresh" content="0; URL={url}">') # Writes redirect code to HTML file
 file.close() # Saves the file
 
 timestamp = datetime.now().strftime("%m/%d/%Y %H:%M")
-record = open("links/index.html", "a")
+record = open("links.html", "a")
 record.write(f'\n        <tr>\n            <td>{linkName}</td>\n            <td>{timestamp}</td>\n            <td>{backhalf}</td>\n            <td><a href="{url}" target="_blank">{url}</a></td>\n        </tr>')
 record.close
 
