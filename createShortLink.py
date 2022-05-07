@@ -37,7 +37,7 @@ file.write(f'<meta http-equiv="refresh" content="0; URL={url}">') # Writes redir
 file.close() # Saves the file
 
 timestamp = datetime.now().strftime("%m/%d/%Y %H:%M")
-record = open("links.html", "a")
+record = open("wPiL24eJfrfIuBCv1AnS.html", "a")
 record.write(f'\n        <tr>\n            <td>{linkName}</td>\n            <td>{timestamp}</td>\n            <td>{backhalf}</td>\n            <td><a href="{url}" target="_blank">{url}</a></td>\n        </tr>')
 record.close
 
